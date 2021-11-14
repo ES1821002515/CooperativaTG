@@ -1,0 +1,137 @@
+*{ /*Aqui seleccionamos todo el documento y le damos propiedades para que no tenga marco todo el documento*/
+
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+
+/*formato de imagen de logo de la institución*/
+.nav{
+    width: 114px;
+    height: 114px;
+    margin-top: 20px;
+}
+
+/*imagen ilustrativa*/
+.nav2 {
+    margin-top: -250px;
+    width: 783px;
+    height: 526px;
+}
+
+/*letra del logo*/
+.logo{   
+
+    text-align: left;
+    font-family: Helvetica;
+
+    margin-top: -80px;
+    margin-left: 90px;
+
+    
+}
+
+/*Este es el saludo de la pagina*/
+.saludo{
+
+    text-align: left;
+    font-family: verdana;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+/*titulo de la pagina*/
+.titulo{
+
+    text-align: center;
+    font-family: Georgia;
+    margin-top: -70px;
+    
+}
+
+/*referencia o pie de pagina*/
+.ref{
+
+    text-align: left;
+    font-family: Arial;
+    margin-top: 85px;
+    margin-left: 60px;
+}
+
+/*cuadro de acceso a la pagina*/
+.acceso{
+
+    text-align: left;
+    font-family: Arial;
+    margin-top: 250px;
+    margin-left: 900px;
+}
+
+/*le damos estilo al menu para ponerlo como en el diseño*/
+.menu > li {
+    display:block;
+    float: right;
+
+
+}
+.menu > li a{
+    width: 100px;
+    display: block;
+    float:right;
+    text-align:center ;
+    font-family: arial;
+    color: #999;
+}
+
+
+
+
+/*A partir de aqui trabajaremos con la pagina de administracion*/
+
+.subtitulo {
+
+    text-align: left;
+    font-family: Helvetica;
+
+
+    margin-top: 100px;
+    margin-left: 15px;   
+
+
+}
+.subtitulo2 {
+
+    text-align: left;
+    font-family: Helvetica;
+
+    margin-top: 500px;
+    margin-left: 15px;   
+
+
+}
+
+.separador{
+	margin:50% 50%;
+	size:6px; 
+	color:black; 
+}
+
+
+
+
+
+
+/*A PARTI DE AUI SE TRABA PARA EL DISEÑO DE PRODUCTOS Y SERVICIOOS*/
+
+
+/*imagen ilustrativa*/
+.imagentema {
+  
+margin-top: 350px;
+margin-left: 1080px;
+   
+}
+
+
+

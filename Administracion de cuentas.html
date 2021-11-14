@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type= "img/png" href="https://www.clipartmax.com/png/middle/6-62151_size-png-icono-edificio-justicia.png"> 
+    <link rel= "stylesheet" type="text/css" href= "index.css"> 
+    <title>Administración de cuentas</title>
+</head>
+
+
+<body>
+
+  <nav class="nav">
+    <img src="imagenes/icono.PNG"> <!-- Añadimos la imagen del logo-->
+    </nav> 
+	
+	
+	<!--menu para navegar entre paginas-->
+	
+	<ul class="menu">
+   <!-- Añadimos el menu horizontal para la navegacion entre las paginas-->
+   <li><a href="Administracion de cuentas.html" title="Administracion">Administración cuentas</a></li>
+   <li><a href="Productos y servicios.html" title="Productos">Productos y servicios</a></li>
+   <li><a href="index.php" title="Contacto">Home</a></li>
+</ul>
+
+  <h1 class="logo"> Cooperativa TG </h1> <!--titulo  del logo de la empresa-->
+  <h1 class="titulo"> ADMINISTRACION </h1>
+
+
+  <nav class="subtitulo">
+<h2>ADMINISTRACION DE CUENTAS DE SOCIOS</h2>
+</nav>
+
+
+<!--Aqui tenemos nuestro formulario-->
+
+<form action="ejecutar.php" method="POST">
+
+<input type="text" name="uno" placeholder="Id" />
+<input type="text" name="dos" placeholder="Numero de telefono" />
+<input type="text" name="tres" placeholder="Nombre" />
+<input type="text" name="cuatro" placeholder="Email" />
+<input type="text" name="cinco" placeholder="Tipo" />
+
+
+<button type="submit" name="Agregar" value="Agregar">Agregar</button>
+<button type="submit" name="Seleccionar" value="Seleccionar">Seleccionar </button>
+<button type="submit" name="Eliminar" value="Eliminar">Eliminar </button>
+
+
+
+<!--separador de secciones-->
+
+ <hr clase="separador"> </hr>
+
+
+
+
+<nav class="subtitulo2">
+<h2>ADMINISTRACION DE MOVIMIENTOS</h2>
+</nav>
+
+<!--Aqui se programa el segundo formulario de la parte de administracion-->
+
+<form action="ejecutar.php" method="POST" >
+
+<input type="text" name="la" placeholder="retiro" />
+<input type="text" name="le" placeholder="deposito" />
+<input type="text" name="li" placeholder="saldo" />
+
+
+<button type="submit" name="Consulta" value="Saldo">Consulta </button>
+<button type="submit" name="Agregar" value="Guardado">Aceptar </button>
+
+
+
+
+<div>
+    <h5 class="ref"> Raúl Brandon Cruz Garcia, raul.cruzga@nube.unadmexico.mx, ES1821002515 </h5>
+
+</div>
+</body>
+</html>
